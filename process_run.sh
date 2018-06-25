@@ -1,5 +1,5 @@
 #!/bin/bash
-service=namenode
+service=Namenode
 if (( $(ps -ef | grep -v grep | grep -i $service | wc -l) > 0 ))
 then
 echo "$service is running!!!"
